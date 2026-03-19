@@ -14,9 +14,9 @@ export default function Footer() {
     }}>
       <div style={{ marginBottom: 24, display: 'flex', justifyContent: 'center', gap: 20 }}>
         {[
-          { icon: <FaGithub />, href: 'https://github.com/amanprakash1009', label: 'GitHub' },
-          { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/amanprakash1009/', label: 'LinkedIn' },
-          { icon: <FaEnvelope />, href: 'mailto:aman@email.com', label: 'Email' },
+          { icon: <FaGithub />, href: 'https://github.com/GEEKB0T', label: 'GitHub' },
+          { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/raj-deep2', label: 'LinkedIn' },
+          { icon: <FaEnvelope />, href: 'mailto:rajdeep7488@gmail.com', label: 'Email' },
         ].map(({ icon, href, label }) => (
           <a
             key={label}
@@ -53,7 +53,7 @@ export default function Footer() {
 
       <p style={{ color: '#475569', fontSize: '0.9rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6 }}>
         Built with <FaHeart style={{ color: '#6366f1', fontSize: '0.85rem' }} /> by{' '}
-        <span style={{ color: '#6366f1', fontWeight: 600 }}>Aman</span> · {new Date().getFullYear()}
+        <span style={{ color: '#6366f1', fontWeight: 600 }}>Rajdeep</span> · {new Date().getFullYear()}
       </p>
       <p style={{ color: '#334155', fontSize: '0.8rem', marginTop: 8, fontFamily: 'Fira Code, monospace' }}>
         React · Vite · GSAP · Framer Motion

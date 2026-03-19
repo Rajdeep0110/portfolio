@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import AnimatedSection from '../components/AnimatedSection'
 import {
   FaReact, FaNodeJs, FaPython, FaDocker, FaGitAlt, FaJava, FaAws,
-  FaHtml5, FaCss3Alt, FaDatabase
+  FaHtml5, FaCss3Alt, FaDatabase, FaCode
 } from 'react-icons/fa'
 import {
   SiTypescript, SiMongodb, SiPostgresql, SiRedis, SiTailwindcss,
@@ -11,32 +11,32 @@ import {
   SiCplusplus, SiJavascript, SiFlask, SiTensorflow, SiLinux, SiGithub, SiVite
 } from 'react-icons/si'
 
-const categories = ['All', 'Frontend', 'Backend', 'Languages', 'Database',]
+const categories = ['All', 'Languages', 'Database', 'Frameworks', 'Tools']
 
 const skills = [
-  // Frontend
-  { name: 'React', icon: <FaReact />, level: 90, color: '#61DAFB', category: 'Frontend' },
-  { name: 'Next.js', icon: <SiNextdotjs />, level: 82, color: '#ffffff', category: 'Frontend' },
-  { name: 'TypeScript', icon: <SiTypescript />, level: 78, color: '#3178C6', category: 'Frontend' },
-  { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 88, color: '#06B6D4', category: 'Frontend' },
-  { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: '#E34F26', category: 'Frontend' },
-  { name: 'CSS3', icon: <FaCss3Alt />, level: 90, color: '#1572B6', category: 'Frontend' },
-  { name: 'Vite', icon: <SiVite />, level: 80, color: '#646CFF', category: 'Frontend' },
-  // Backend
-  { name: 'Node.js', icon: <FaNodeJs />, level: 85, color: '#339933', category: 'Backend' },
-  { name: 'Express.js', icon: <SiExpress />, level: 85, color: '#ffffff', category: 'Backend' },
-
   // Languages
-  { name: 'JavaScript', icon: <SiJavascript />, level: 92, color: '#F7DF1E', category: 'Languages' },
+  { name: 'C++', icon: <SiCplusplus />, level: 90, color: '#00599C', category: 'Languages' },
   { name: 'Python', icon: <FaPython />, level: 88, color: '#3776AB', category: 'Languages' },
-  { name: 'C++', icon: <SiCplusplus />, level: 85, color: '#00599C', category: 'Languages' },
-  { name: 'Java', icon: <FaJava />, level: 78, color: '#ED8B00', category: 'Languages' },
+  { name: 'Java', icon: <FaJava />, level: 85, color: '#ED8B00', category: 'Languages' },
+  { name: 'C', icon: <FaCode />, level: 80, color: '#A8B9CC', category: 'Languages' },
+  { name: 'JavaScript', icon: <SiJavascript />, level: 85, color: '#F7DF1E', category: 'Languages' },
+
   // Database
-  { name: 'MongoDB', icon: <SiMongodb />, level: 84, color: '#47A248', category: 'Database' },
-  { name: 'PostgreSQL', icon: <SiPostgresql />, level: 78, color: '#4169E1', category: 'Database' },
+  { name: 'MySQL', icon: <FaDatabase />, level: 85, color: '#4479A1', category: 'Database' },
 
-  { name: 'SQL', icon: <FaDatabase />, level: 80, color: '#336791', category: 'Database' },
+  // Frameworks & Libraries
+  { name: 'HTML5', icon: <FaHtml5 />, level: 90, color: '#E34F26', category: 'Frameworks' },
+  { name: 'CSS3', icon: <FaCss3Alt />, level: 88, color: '#1572B6', category: 'Frameworks' },
+  { name: 'NumPy', icon: <FaPython />, level: 85, color: '#013243', category: 'Frameworks' },
+  { name: 'Pandas', icon: <FaPython />, level: 85, color: '#150458', category: 'Frameworks' },
+  { name: 'Matplotlib', icon: <FaPython />, level: 80, color: '#11557c', category: 'Frameworks' },
+  { name: 'Seaborn', icon: <FaPython />, level: 80, color: '#4C72B0', category: 'Frameworks' },
 
+  // Tools
+  { name: 'VS Code', icon: <FaCode />, level: 90, color: '#007ACC', category: 'Tools' },
+  { name: 'Excel', icon: <FaDatabase />, level: 85, color: '#217346', category: 'Tools' },
+  { name: 'Power BI', icon: <FaDatabase />, level: 80, color: '#F2C811', category: 'Tools' },
+  { name: 'Linux', icon: <SiLinux />, level: 85, color: '#FCC624', category: 'Tools' },
 ]
 
 export default function Skills() {

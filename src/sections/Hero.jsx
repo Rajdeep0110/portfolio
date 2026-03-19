@@ -4,7 +4,7 @@ import { gsap } from 'gsap'
 import { FaGithub, FaLinkedin, FaDownload, FaCode } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
-const roles = ['Full Stack Developer', 'Competitive Programmer', 'Open Source Enthusiast', 'ML Explorer']
+const roles = ['Data Science Enthusiast', 'Software Developer', 'Tech Explorer']
 
 export default function Hero() {
   const headingRef = useRef(null)
@@ -81,7 +81,7 @@ export default function Hero() {
           animation: 'gradientShift 3s linear infinite',
           filter: 'drop-shadow(0 0 12px rgba(139, 92, 246, 0.6))',
         }}>
-          AMAN PRAKASH
+          RAJDEEP
         </span>
       </h1>
 
@@ -134,8 +134,8 @@ export default function Hero() {
           </button>
         </Link>
 
-        {/* ONLY THIS PATH FIXED */}
-        <a href="/amancv.pdf" download className="btn-outline">
+        {/* Update resume link if Rajdeep provides one, for now linking to nowhere */}
+        <a href="/RajdeepCv.pdf" download className="btn-outline">
           <FaDownload style={{ fontSize: '0.85rem' }} /> Download Resume
         </a>
 
@@ -148,8 +148,8 @@ export default function Hero() {
         style={{ display: 'flex', gap: 16 }}
       >
         {[
-          { Icon: FaGithub, href: 'https://github.com/amanprakash1009', color: '#f1f5f9' },
-          { Icon: FaLinkedin, href: 'https://www.linkedin.com/in/amanprakash1009/', color: '#0ea5e9' },
+          { Icon: FaGithub, href: 'https://github.com/Rajdeep0110', color: '#f1f5f9' },
+          { Icon: FaLinkedin, href: 'https://www.linkedin.com/in/raj-deep2', color: '#0ea5e9' },
         ].map(({ Icon, href, color }) => (
           <a
             key={href}

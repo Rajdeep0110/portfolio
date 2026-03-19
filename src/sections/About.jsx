@@ -2,15 +2,15 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { FaGraduationCap, FaMapMarkerAlt, FaCalendar, FaCode, FaLaptopCode, FaBrain } from 'react-icons/fa'
 import AnimatedSection from '../components/AnimatedSection'
-import profileImg from '../assets/profile.jpg'
+import profileImg from '../assets/Profile.jpeg'
 const stats = [
-  { value: '200+', label: 'Problems Solved', icon: <FaCode /> },
-  { value: '5+', label: 'Projects Built', icon: <FaLaptopCode /> },
-  { value: '15+', label: 'Certifications', icon: <FaGraduationCap /> },
-  { value: '2+', label: 'Hackathons', icon: <FaBrain /> },
+  { value: '3-Star', label: 'C++ HackerRank', icon: <FaCode /> },
+  { value: '150+', label: 'DSA on LeetCode', icon: <FaBrain /> },
+  { value: '6+', label: 'Certifications', icon: <FaGraduationCap /> },
+  { value: '2+', label: 'Projects Built', icon: <FaLaptopCode /> },
 ]
 
-const interests = ['Competitive Programming', 'Web Development', 'System Design', 'Cloud Computing']
+const interests = ['Data Science', 'Problem-Solving', 'Tech']
 
 export default function About() {
   return (
@@ -22,9 +22,9 @@ export default function About() {
           </div>
           <h2 className="section-title">Who Am I?</h2>
           <p className="section-subtitle">
-            I am a passionate and ambitious B.Tech 3rd-year student with a strong foundation in programming and web development.
-            My journey in the tech world has equipped me with valuable skills in Python, Java, C, C++, MySQL, HTML, TailwindCSS, JavaScript, PHP, React and Node.js.
-            I am enthusiastic about leveraging technology to solve real-world problems and excited to explore opportunities to collaborate, learn, and contribute to innovative projects.
+            I am a Data Science enthusiast with a strong foundation in programming, analytics, and full-stack development.
+            My journey in the tech world has equipped me with valuable skills in Python, Java, C++, and web technologies.
+            I am enthusiastic about leveraging data to solve real-world problems and excited to explore opportunities to collaborate, learn, and build impactful models.
           </p>
         </AnimatedSection>
 
@@ -85,7 +85,7 @@ export default function About() {
             {/* Quick Facts */}
             <div className="glow-card" style={{ padding: 24, marginTop: 24 }}>
               {[
-                { icon: <FaGraduationCap />, text: 'B.Tech Computer Science & Engineering' },
+                { icon: <FaGraduationCap />, text: 'B.Tech CSE - LPU (CGPA: 6.6)' },
                 { icon: <FaCalendar />, text: 'Expected Graduation: 2027' },
                 { icon: <FaMapMarkerAlt />, text: 'India' },
               ].map(({ icon, text }) => (
@@ -113,8 +113,8 @@ export default function About() {
             </h3>
 
             <p style={{ color: '#94a3b8', lineHeight: 1.9, marginBottom: 20, fontSize: '0.97rem' }}>
-              I'm <strong style={{ color: '#6366f1' }}>Aman</strong>, a Computer Science student with a deep passion for solving real-world problems through technology.
-              I specialize in full-stack web development, competitive programming, and machine learning.
+              I'm <strong style={{ color: '#6366f1' }}>Rajdeep</strong>, a student with a deep passion for solving real-world problems through data and technology.
+              I specialize in Data Science and web development.
             </p>
 
             <p style={{ color: '#94a3b8', lineHeight: 1.9, marginBottom: 20, fontSize: '0.97rem' }}>
@@ -122,10 +122,12 @@ export default function About() {
               I believe in continuous learning and actively contribute to open-source projects.
             </p>
 
-            <p style={{ color: '#94a3b8', lineHeight: 1.9, marginBottom: 28, fontSize: '0.97rem' }}>
-              When not coding, I write technical blogs, participate in hackathons, and mentor junior developers.
-              My goal is to become a world-class software engineer while making a positive impact on the tech community.
-            </p>
+            {/* <p style={{ color: '#94a3b8', lineHeight: 1.9, marginBottom: 28, fontSize: '0.97rem' }}>
+              <strong>Education:</strong><br />
+              • B.Tech CSE, Lovely Professional University (Aug '23 - Present)<br />
+              • Intermediate (66.2%), Dwarika High School (Apr '21 - Feb '23)<br />
+              • Matriculation (70.8%), Mother International Academy (Apr '20 - Mar '22)
+            </p> */}
 
             <h4
               style={{

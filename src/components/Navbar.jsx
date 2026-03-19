@@ -40,7 +40,7 @@ export default function Navbar() {
       {/* Logo */}
       <div style={{ fontFamily: 'Fira Code, monospace', fontWeight: 700, fontSize: '1.3rem' }}>
         <span style={{ color: '#6366f1' }}>&lt;</span>
-        <span style={{ background: 'linear-gradient(135deg,#6366f1,#8b5cf6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Aman</span>
+        <span style={{ background: 'linear-gradient(135deg,#6366f1,#8b5cf6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Rajdeep</span>
         <span style={{ color: '#6366f1' }}>/&gt;</span>
       </div>
 
@@ -72,7 +72,7 @@ export default function Navbar() {
         ))}
 
         <a
-          href="/portfolioCa/AmanCv.pdf"
+          href="/RajdeepCv.pdf"
           download
           className="btn-primary"
           style={{ marginLeft: 8, padding: '8px 18px', fontSize: '0.82rem' }}
@@ -124,7 +124,7 @@ export default function Navbar() {
           ))}
 
           <a
-            href="/portfolioCa/AmanCv.pdf"
+            href="/RajdeepCv.pdf"
             download
             className="btn-primary"
             style={{ textAlign: 'center', marginTop: 8 }}

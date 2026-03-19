@@ -6,40 +6,29 @@ import AnimatedSection from '../components/AnimatedSection'
 const projectsData = [
   {
     id: 1,
-    title: 'E-Governance Chatbot',
-    description: 'A MERN stack AI-powered chatbot for government services with NLP, JWT auth, admin dashboard, and conversation persistence.',
-    tags: ['React', 'Node.js', 'MongoDB', 'NLP', 'JWT'],
-    github: 'https://github.com/amanprakash1009/gov-assist-chatbot',
-    live: 'https://chatbot-for-e-governance.vercel.app/',
+    title: 'Chatbot',
+    description: 'AI-based clothing recommendation chatbot using Flask and Google Generative AI (Gemini) to generate personalized outfit suggestions and styling tips with a responsive UI.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Flask'],
+    github: 'https://github.com/Rajdeep0110',
+    live: '#',
     category: 'Full Stack',
     featured: true,
-    emoji: '🏛️',
+    emoji: '🤖',
   },
   {
     id: 2,
-    title: 'Real-Time Stock Tracker',
-    description: 'Production-ready MERN stock portfolio tracker with WebSocket, Redux Toolkit, real-time charts, and user authentication.',
-    tags: ['React', 'Redux', 'Node.js', 'WebSocket', 'Chart.js'],
-    github: 'https://github.com/amanprakash1009/Real-Time-Stock-Portfolio-Tracker',
-    category: 'Full Stack',
+    title: 'Academic Trends Analysis',
+    description: 'Academic performance analysis on VIT Vellore data to identify trends across branches and years using CGPA patterns and visual analytics.',
+    tags: ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn'],
+    github: 'https://github.com/Rajdeep0110',
+    live: '#',
+    category: 'Data Science',
     featured: true,
-    emoji: '📈',
+    emoji: '📊',
   },
-  {
-    id: 3,
-    title: 'Carbon Footprint Tracker',
-    description: 'A web application that helps users track their carbon footprint and provides suggestions to reduce it.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Algorithms', 'Canvas'],
-    github: 'https://github.com/amanprakash1009/carbonfoot_print',
-    category: 'Frontend',
-    featured: true,
-    emoji: '🎮',
-  },
-
-
 ]
 
-const categories = ['All', 'Full Stack', 'Frontend']
+const categories = ['All', 'Full Stack', 'Data Science']
 
 const tagColors = {
   React: '#61DAFB', 'Node.js': '#339933', MongoDB: '#47A248',

@@ -10,22 +10,22 @@ const contactInfo = [
   {
     icon: FaEnvelope,
     label: 'Email',
-    value: 'amanprakash8789@gmail.com',
-    href: 'mailto:aman@example.com',
+    value: 'rajdeep7488@gmail.com',
+    href: 'mailto:rajdeep7488@gmail.com',
     color: '#6366f1',
   },
   {
     icon: FaGithub,
     label: 'GitHub',
-    value: 'github.com/amanprakash1009',
-    href: 'https://github.com/amanprakash1009',
+    value: 'github.com/GEEKB0T',
+    href: 'https://github.com/GEEKB0T',
     color: '#f1f5f9',
   },
   {
     icon: FaLinkedin,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/amanprakash1009',
-    href: 'https://www.linkedin.com/in/amanprakash1009/',
+    value: 'linkedin.com/in/raj-deep2',
+    href: 'https://www.linkedin.com/in/raj-deep2',
     color: '#0ea5e9',
   },
   {
@@ -219,7 +219,7 @@ export default function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      placeholder="Aman"
+                      placeholder="Rajdeep"
                       style={getFocusStyle('name')}
                       onFocus={() => setFocused('name')}
                       onBlur={() => setFocused(null)}
@@ -233,7 +233,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      placeholder="aman@example.com"
+                      placeholder="rajdeep7488@gmail.com"
                       style={getFocusStyle('email')}
                       onFocus={() => setFocused('email')}
                       onBlur={() => setFocused(null)}
