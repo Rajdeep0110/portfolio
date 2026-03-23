@@ -22,7 +22,7 @@ const skills = [
   { name: 'JavaScript', icon: <SiJavascript />, level: 85, color: '#F7DF1E', category: 'Languages' },
 
   // Database
-  { name: 'MySQL', icon: <FaDatabase />, level: 85, color: '#4479A1', category: 'Database' },
+  // { name: 'MySQL', icon: <FaDatabase />, level: 85, color: '#4479A1', category: 'Database' },
 
   // Frameworks & Libraries
   { name: 'HTML5', icon: <FaHtml5 />, level: 90, color: '#E34F26', category: 'Frameworks' },

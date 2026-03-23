@@ -14,7 +14,7 @@ export default function Footer() {
     }}>
       <div style={{ marginBottom: 24, display: 'flex', justifyContent: 'center', gap: 20 }}>
         {[
-          { icon: <FaGithub />, href: 'https://github.com/GEEKB0T', label: 'GitHub' },
+          { icon: <FaGithub />, href: 'https://github.com/Rajdeep0110', label: 'GitHub' },
           { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/raj-deep2', label: 'LinkedIn' },
           { icon: <FaEnvelope />, href: 'mailto:rajdeep7488@gmail.com', label: 'Email' },
         ].map(({ icon, href, label }) => (

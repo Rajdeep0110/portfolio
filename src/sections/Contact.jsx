@@ -17,8 +17,8 @@ const contactInfo = [
   {
     icon: FaGithub,
     label: 'GitHub',
-    value: 'github.com/GEEKB0T',
-    href: 'https://github.com/GEEKB0T',
+    value: 'github.com/Rajdeep0110',
+    href: 'https://github.com/Rajdeep0110',
     color: '#f1f5f9',
   },
   {
