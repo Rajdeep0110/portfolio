@@ -22,9 +22,7 @@ export default function About() {
           </div>
           <h2 className="section-title">Who Am I?</h2>
           <p className="section-subtitle">
-            I am a Data Science enthusiast with a strong foundation in programming, analytics, and full-stack development.
-            My journey in the tech world has equipped me with valuable skills in Python, Java, C++, and web technologies.
-            I am enthusiastic about leveraging data to solve real-world problems and excited to explore opportunities to collaborate, learn, and build impactful models.
+           My name is Rajdeep, and I am passionate about solving real-world problems by building logical and efficient solutions through programming. I have a strong interest in Data Structures and Algorithms, which enhances my analytical and problem-solving skills. As a Data Science enthusiast, I have experience in Python, Java, and C++, and I continuously learn new technologies, including Web Development, to create practical and impactful solutions.
           </p>
         </AnimatedSection>
 
@@ -114,11 +112,11 @@ export default function About() {
 
             <p style={{ color: '#94a3b8', lineHeight: 1.9, marginBottom: 20, fontSize: '0.97rem' }}>
               I'm <strong style={{ color: '#6366f1' }}>Rajdeep</strong>, a student with a deep passion for solving real-world problems through data and technology.
-              I specialize in Data Science and web development.
+              I specialize in Data Science and have a deep interest in Data Structures and Algorithms as well as in Web Development.
             </p>
 
             <p style={{ color: '#94a3b8', lineHeight: 1.9, marginBottom: 20, fontSize: '0.97rem' }}>
-              I thrive at the intersection of <em>creativity</em> and <em>logic</em> — designing elegant user interfaces while architecting robust backend systems.
+              I thrive at the intersection of <em>creativity</em> and <em>logic</em> — designing elegant user interfaces while architecting robust frontend systems.
               I believe in continuous learning and actively contribute to open-source projects.
             </p>
 
