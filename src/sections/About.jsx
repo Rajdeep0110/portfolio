@@ -83,7 +83,9 @@ export default function About() {
             {/* Quick Facts */}
             <div className="glow-card" style={{ padding: 24, marginTop: 24 }}>
               {[
-                { icon: <FaGraduationCap />, text: 'B.Tech CSE - LPU' },
+                { icon: <FaGraduationCap />, text: 'B.Tech CSE - LPU - 6.6' },
+                { icon: <FaGraduationCap />, text: 'Intermediate - Dwarika High School - 66.2%' },
+                { icon: <FaGraduationCap />, text: 'Matriculation - Mother International Academy - 70.8%' },
                 { icon: <FaCalendar />, text: 'Expected Graduation: 2027' },
                 { icon: <FaMapMarkerAlt />, text: 'India' },
               ].map(({ icon, text }) => (

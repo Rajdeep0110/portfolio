@@ -22,21 +22,21 @@ const skills = [
   { name: 'JavaScript', icon: <SiJavascript />, level: 85, color: '#F7DF1E', category: 'Languages' },
 
   // Database
-  // { name: 'MySQL', icon: <FaDatabase />, level: 85, color: '#4479A1', category: 'Database' },
+  { name: 'MySQL', icon: <FaDatabase />, level: 85, color: '#4479A1', category: 'Database' },
 
   // Frameworks & Libraries
   { name: 'HTML5', icon: <FaHtml5 />, level: 90, color: '#E34F26', category: 'Frameworks' },
   { name: 'CSS3', icon: <FaCss3Alt />, level: 88, color: '#1572B6', category: 'Frameworks' },
   { name: 'NumPy', icon: <FaPython />, level: 85, color: '#013243', category: 'Frameworks' },
-  { name: 'Pandas', icon: <FaPython />, level: 85, color: '#150458', category: 'Frameworks' },
-  { name: 'Matplotlib', icon: <FaPython />, level: 80, color: '#11557c', category: 'Frameworks' },
-  { name: 'Seaborn', icon: <FaPython />, level: 80, color: '#4C72B0', category: 'Frameworks' },
+  // { name: 'Pandas', icon: <FaPython />, level: 85, color: '#150458', category: 'Frameworks' },
+  // { name: 'Matplotlib', icon: <FaPython />, level: 80, color: '#11557c', category: 'Frameworks' },
+  // { name: 'Seaborn', icon: <FaPython />, level: 80, color: '#4C72B0', category: 'Frameworks' },
 
   // Tools
   { name: 'VS Code', icon: <FaCode />, level: 90, color: '#007ACC', category: 'Tools' },
   { name: 'Excel', icon: <FaDatabase />, level: 85, color: '#217346', category: 'Tools' },
   { name: 'Power BI', icon: <FaDatabase />, level: 80, color: '#F2C811', category: 'Tools' },
-  { name: 'Linux', icon: <SiLinux />, level: 85, color: '#FCC624', category: 'Tools' },
+  // { name: 'Linux', icon: <SiLinux />, level: 85, color: '#FCC624', category: 'Tools' },
 ]
 
 export default function Skills() {
